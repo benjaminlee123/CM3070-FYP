@@ -33,19 +33,18 @@ To run the code, you'll need to install the necessary dependencies:
 Clone the repository:
 
 bash
-Copy code
+
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 Create a virtual environment (optional but recommended):
 
 bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 The requirements.txt file should contain:
 
@@ -63,21 +62,17 @@ Data Preparation:
 Ensure the datasets are in the correct directory paths specified in the code.
 Run data_preparation.py to preprocess the datasets:
 bash
-Copy code
 python data_preparation.py
 Training the Models:
 
 To train the baseline CNN model for the Intel dataset, run:
 bash
-Copy code
 python train_cnn.py
 To perform clustering on the ADE20K dataset, run:
 bash
-Copy code
 python unsupervised_clustering.py
 To train the YOLOv5-LSTM model, run:
 bash
-Copy code
 python train_yolov5_lstm.py
 Evaluation:
 
